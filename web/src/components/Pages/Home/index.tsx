@@ -78,14 +78,6 @@ export function Page({ name, colorScheme }: PageType) {
             <SectionText>
               - Inglês intermediário, consigo escutar, ler e escrever em inglês!
             </SectionText>
-
-            <SectionText>
-              - Sempre expandindo meus aprendizados;
-            </SectionText>
-
-            <SectionText>
-              - Inglês avançado, consigo escutar, falar, ler e escrever em inglês!
-            </SectionText>
           </div>
         </AboutMeContainer>
       </AboutMeSection>
