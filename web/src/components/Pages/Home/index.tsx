@@ -12,7 +12,6 @@ import { frontEndSummary, redesSummary, languagesSummary, audiovisualSummary, co
 import { Logo } from '../../Header/styles';
 import { BookBookmark, Bus } from 'phosphor-react';
 
-import curriculo from '../../../assets/documents/CV - Jacó Martins.pdf'
 
 interface PageType {
   name: string;
@@ -42,7 +41,7 @@ export function Page({ name, colorScheme }: PageType) {
 
               <div className="buttonContainer">
                 <a onClick={handleContactMeClick}><button>Entrar em contato</button></a>
-                <a href={curriculo}><button>Baixar currículo</button></a>
+                <a><button>Baixar currículo</button></a>
               </div>
             </div>
             <div className="Picture" />
