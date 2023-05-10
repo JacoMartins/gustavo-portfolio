@@ -22,22 +22,22 @@ export const frontEndSummary = [
 export const redesSummary = [
   {
     infoTitle: 'Redes de Computadores',
-    value: '83%'
+    value: '72%'
   },
 
   {
     infoTitle: 'Segurança da Informação',
-    value: '61%'
+    value: '52%'
   },
 
   {
     infoTitle: 'Infraestrutura',
-    value: '76%'
+    value: '59%'
   },
 
   {
     infoTitle: 'Arquitetura de Redes',
-    value: '88%'
+    value: '80%'
   }
 ];
 
