@@ -91,7 +91,7 @@ export function Page({ name, colorScheme }: PageType) {
 
           <div className='SummaryContainer'>
             <Summary type="%list" title="Hard Skills" subTitle='Minhas habilidades na área de Redes de Computadores' summaries={hardSkillsSummary} colorScheme={colorScheme} />
-            <Summary type="%list" title="Soft Skills" subTitle='Coisas que faço após o expediente' summaries={softSkillsSummary} colorScheme={colorScheme} />
+            <Summary type="%list" title="Soft Skills" subTitle='Habilidades Comportamentais' summaries={softSkillsSummary} colorScheme={colorScheme} />
             <Summary type="%list" title="Hobbies" subTitle='Bom, nem todo mundo é de ferro, né? Coisas que eu faço para aproveitar a vida.' summaries={hobbiesSummary} colorScheme={colorScheme} />
           </div>
         </AbilitiesContainer>
