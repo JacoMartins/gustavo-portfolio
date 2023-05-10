@@ -8,7 +8,7 @@ import { Summary } from '../../Summary';
 
 import { IconButton } from '../../IconButton';
 
-import { frontEndSummary, redesSummary, languagesSummary, audiovisualSummary, contacts, projects, cert, prof } from './data';
+import { hobbiesSummary, hardSkillsSummary, languagesSummary, softSkillsSummary, contacts, projects, cert, prof } from './data';
 import { Logo } from '../../Header/styles';
 import { BookBookmark, Bus } from 'phosphor-react';
 
@@ -90,10 +90,9 @@ export function Page({ name, colorScheme }: PageType) {
           </div>
 
           <div className='SummaryContainer'>
-            <Summary type="%list" title="Redes de Computadores" subTitle='Minhas habilidades na área de Redes de Computadores' summaries={redesSummary} colorScheme={colorScheme} />
-            <Summary type="%list" title="Frontend" subTitle='HTML5, CSS3 e Javascript' summaries={frontEndSummary} colorScheme={colorScheme} />
-            <Summary type="%list" title="Idiomas" subTitle='Língua Inglesa e Espanhola' summaries={languagesSummary} colorScheme={colorScheme} />
-            <Summary type="%list" title="Audiovisual" subTitle='Edição profissional de vídeos, sons e fotografias.' summaries={audiovisualSummary} colorScheme={colorScheme} />
+            <Summary type="%list" title="Hard Skills" subTitle='Minhas habilidades na área de Redes de Computadores' summaries={hardSkillsSummary} colorScheme={colorScheme} />
+            <Summary type="%list" title="Soft Skills" subTitle='Coisas que faço após o expediente' summaries={softSkillsSummary} colorScheme={colorScheme} />
+            <Summary type="%list" title="Hobbies" subTitle='Bom, nem todo mundo é de ferro, né? Coisas que eu faço para aproveitar a vida.' summaries={hobbiesSummary} colorScheme={colorScheme} />
           </div>
         </AbilitiesContainer>
       </AbilitiesSection>

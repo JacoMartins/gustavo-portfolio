@@ -2,24 +2,34 @@ import { BookBookmark, Bus } from 'phosphor-react';
 import bookYourselfIcon from '../../../assets/images/BookYourself.svg';
 import ecosIcon from '../../../assets/images/ecosLetter.svg';
 
-export const frontEndSummary = [
+export const hobbiesSummary = [
   {
-    infoTitle: 'HTML5 - Intermediário',
-    value: '43%'
+    infoTitle: 'Editar vídeos',
+    value: '100%'
   },
 
   {
-    infoTitle: 'CSS3 - Iniciante',
-    value: '22%'
+    infoTitle: 'Ouvir músicas',
+    value: '100%'
   },
 
   {
-    infoTitle: 'Javascript - Iniciante',
-    value: '19%'
+    infoTitle: 'Programação Frontend',
+    value: '100%'
+  },
+
+  {
+    infoTitle: 'Assistir Séries',
+    value: '100%'
+  },
+
+  {
+    infoTitle: 'Jogos Eletrônicos',
+    value: '100%'
   },
 ];
 
-export const redesSummary = [
+export const hardSkillsSummary = [
   {
     infoTitle: 'Redes de Computadores',
     value: '72%'
@@ -58,11 +68,26 @@ export const languagesSummary = [
   }
 ];
 
-export const audiovisualSummary = [
+export const softSkillsSummary = [
   {
-    infoTitle: 'Vegas PRO',
-    value: '100%'
-  }
+    infoTitle: 'Resiliência',
+    value: '90%'
+  },
+
+  {
+    infoTitle: 'Comunicação',
+    value: '90%'
+  },
+
+  {
+    infoTitle: 'Proatividade',
+    value: '90%'
+  },
+
+  {
+    infoTitle: 'Disciplina',
+    value: '90%'
+  },
 ];
 
 export const contacts = [
