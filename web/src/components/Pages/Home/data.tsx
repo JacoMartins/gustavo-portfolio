@@ -22,22 +22,22 @@ export const frontEndSummary = [
 export const redesSummary = [
   {
     infoTitle: 'Redes de Computadores',
-    value: '100%'
+    value: '83%'
   },
 
   {
     infoTitle: 'Segurança da Informação',
-    value: '100%'
+    value: '61%'
   },
 
   {
     infoTitle: 'Infraestrutura',
-    value: '100%'
+    value: '76%'
   },
 
   {
     infoTitle: 'Arquitetura de Redes',
-    value: '100%'
+    value: '88%'
   }
 ];
 
@@ -122,6 +122,22 @@ export const cert = [
     description: 'Amazon Web Services',
     image: 'Cert',
     link: '',
+    type: 'portfolio'
+  },
+  
+  {
+    text: 'Introdução ao Pentest na Prática',
+    description: 'Desec Security',
+    image: 'Cert',
+    link: 'https://drive.google.com/file/d/1-T5Y4VrAGE_bPbI9cJb-dcNWPdWN593T/view',
+    type: 'portfolio'
+  },
+  
+  {
+    text: 'Suporte Técnico em Tecnologia da Informação',
+    description: 'Dell Lead',
+    image: 'Cert',
+    link: 'https://drive.google.com/file/d/1tYrTi2qMSLmeiRXSEE6aHLWPEKPJYxvW/view',
     type: 'portfolio'
   },
 ]
