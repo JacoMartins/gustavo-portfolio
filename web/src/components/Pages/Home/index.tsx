@@ -1,4 +1,3 @@
-import React, { useState, useEffect, ReactNode } from 'react';
 import {
   PresentSection, PresentContainer, PageMain, AboutMeSection, AboutMeContainer, AbilitiesSection, SectionTitle, SectionText, AbilitiesContainer, ProjectsSection, ProjectsContainer, Section, SectionContainer, Container, SubSection, SectionH1, ColoredText, SectionH2, Button, Footer
 
@@ -8,10 +7,10 @@ import { Summary } from '../../Summary';
 
 import { IconButton } from '../../IconButton';
 
-import { hobbiesSummary, hardSkillsSummary, languagesSummary, softSkillsSummary, contacts, projects, cert, prof } from './data';
+import { hobbiesSummary, hardSkillsSummary, softSkillsSummary, contacts, projects, cert, prof } from './data';
 import { Logo } from '../../Header/styles';
-import { BookBookmark, Bus } from 'phosphor-react';
-
+import { BookBookmark } from 'phosphor-react';
+import curriculo from '../../../assets/documents/CV - Gustavo Alexandre.pdf'
 
 interface PageType {
   name: string;
@@ -41,7 +40,7 @@ export function Page({ name, colorScheme }: PageType) {
 
               <div className="buttonContainer">
                 <a onClick={handleContactMeClick}><button>Entrar em contato</button></a>
-                <a><button>Baixar currículo</button></a>
+                <a href={curriculo}><button>Baixar currículo</button></a>
               </div>
             </div>
             <div className="Picture" />
