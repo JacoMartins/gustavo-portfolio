@@ -42,7 +42,7 @@ export const hardSkillsSummary = [
 
   {
     infoTitle: 'Infraestrutura',
-    value: '2547%'
+    value: '80%'
   },
 
   {
