@@ -175,10 +175,10 @@ export const cert = [
   },
   
   {
-    text: 'NSE1 - Network Security Associate',
+    text: 'NSE 1 - Network Security Associate',
     description: 'Fortinet',
     image: 'Cert',
-    link: '',
+    link: 'https://drive.google.com/file/d/1qofvRJhbO1AQL8hgDDiCsVOAAyzE_ghD/view',
     type: 'portfolio'
   },
 ]
