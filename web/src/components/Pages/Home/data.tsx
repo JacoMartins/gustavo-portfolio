@@ -32,17 +32,17 @@ export const hobbiesSummary = [
 export const hardSkillsSummary = [
   {
     infoTitle: 'Redes de Computadores',
-    value: '72%'
+    value: '80%'
   },
 
   {
     infoTitle: 'Segurança da Informação',
-    value: '52%'
+    value: '70%'
   },
 
   {
     infoTitle: 'Infraestrutura',
-    value: '59%'
+    value: '2547%'
   },
 
   {
