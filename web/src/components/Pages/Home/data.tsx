@@ -165,6 +165,22 @@ export const cert = [
     link: 'https://drive.google.com/file/d/1tYrTi2qMSLmeiRXSEE6aHLWPEKPJYxvW/view',
     type: 'portfolio'
   },
+
+  {
+    text: 'Introduction to Cybersecurity',
+    description: 'Cisco Networking Academy',
+    image: 'Cert',
+    link: '',
+    type: 'portfolio'
+  },
+  
+  {
+    text: 'NSE1 - Network Security Associate',
+    description: 'Fortinet',
+    image: 'Cert',
+    link: '',
+    type: 'portfolio'
+  },
 ]
 
 export const prof = [
