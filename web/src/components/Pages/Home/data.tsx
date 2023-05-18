@@ -170,7 +170,7 @@ export const cert = [
     text: 'Introduction to Cybersecurity',
     description: 'Cisco Networking Academy',
     image: 'Cert',
-    link: '',
+    link: 'https://www.credly.com/badges/4e606149-a5e9-4b05-ad5c-e0c28e503658/linked_in_profile',
     type: 'portfolio'
   },
   
