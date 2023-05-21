@@ -117,41 +117,6 @@ export function Page({ name, colorScheme }: PageType) {
         </SectionContainer>
       </Section>
 
-      <Section id="projects" colorScheme={colorScheme}>
-        <SectionContainer>
-          <SectionTitle colorScheme={colorScheme}>Projetos</SectionTitle>
-          <div className='iconTextContainer'>
-            {projects.map((item) => {
-              return (
-                <IconButton
-                  key={item.description}
-                  text={item.text}
-                  description={item.description}
-                  image={item.image}
-                  icon={item.icon}
-                  link={item.link}
-                  type={item.type}
-                  colorScheme={colorScheme}
-                />
-              )
-            })}
-          </div>
-        </SectionContainer>
-      </Section>
-
-      <SubSection id='projectsbookyourself' height='40rem' bg={colorScheme === 'light' ? '#F0FFF4' : '#0c1411'} colorScheme={colorScheme}>
-        <Container row="row">
-          <aside>
-            <BookBookmark size='16rem' weight='regular' color="#38A169" />
-            <div className='TextContainer'>
-              <SectionH1 color="#38A169">BookYourself</SectionH1>
-              <SectionH2 color={colorScheme === 'light' ? 'var(--text-light)' : 'var(--text-dark)'}>O BookYourself é uma plataforma destinada a melhora, automatização e gerência de reservas de itens ou ambientes de uma instituição.</SectionH2>
-              <Button color={colorScheme === 'light' ? '#38A169' : '#2F855A'}>Saiba mais</Button>
-            </div>
-          </aside>
-        </Container>
-      </SubSection>
-
       <AbilitiesSection id="portfolio" colorScheme={colorScheme}>
         <SectionContainer>
           <SectionTitle colorScheme={colorScheme}>Portfólio</SectionTitle>
