@@ -32,10 +32,6 @@ const data = {
       realName: "contacts"
     },
     {
-      displayName: "Projetos",
-      realName: "projects"
-    },
-    {
       displayName: "Portfólio",
       realName: "portfolio"
     }
