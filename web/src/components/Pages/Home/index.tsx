@@ -35,7 +35,7 @@ export function Page({ name, colorScheme }: PageType) {
                 <h2>
                   Cibersegurança
                 </h2>
-                <span>Redes de Computadores, Segurança da Informação (Cybersecurity), Infraestrutura, Administração de Redes.</span>
+                <span>Redes de Computadores, Segurança da Informação, Infraestrutura, Administração de Redes.</span>
               </div>
 
               <div className="buttonContainer">
