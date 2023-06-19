@@ -31,6 +31,11 @@ export const hobbiesSummary = [
 
 export const hardSkillsSummary = [
   {
+    infoTitle: 'Cibersegurança',
+    value: '80%'
+  },
+
+  {
     infoTitle: 'Redes de Computadores',
     value: '80%'
   },
@@ -41,14 +46,9 @@ export const hardSkillsSummary = [
   },
 
   {
-    infoTitle: 'Infraestrutura',
+    infoTitle: 'Infraestrutura de Redes',
     value: '80%'
   },
-
-  {
-    infoTitle: 'Arquitetura de Redes',
-    value: '80%'
-  }
 ];
 
 export const languagesSummary = [
@@ -100,9 +100,9 @@ export const contacts = [
   },
   {
     text: 'Instagram',
-    description: '@allexgus_',
+    description: '@gustavoalexandre.sec',
     image: 'Instagram',
-    link: 'https://www.instagram.com/allexgus_/',
+    link: 'https://www.instagram.com/gustavoalexandre.sec/',
     type: 'contact'
   },
   {
@@ -141,15 +141,7 @@ export const projects = [
   },
 ]
 
-export const cert = [
-  {
-    text: 'AWS Academy Cloud Foundation',
-    description: 'Amazon Web Services',
-    image: 'Cert',
-    link: '',
-    type: 'portfolio'
-  },
-  
+export const cert = [  
   {
     text: 'Introdução ao Pentest na Prática',
     description: 'Desec Security',
