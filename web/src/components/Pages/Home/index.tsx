@@ -33,7 +33,7 @@ export function Page({ name, colorScheme }: PageType) {
 
               <div className="textTextContainer">
                 <h2>
-                  Infraestrutura de Redes
+                  Cibersegurança
                 </h2>
                 <span>Redes de Computadores, Segurança da Informação (Cybersecurity), Infraestrutura, Administração de Redes.</span>
               </div>
